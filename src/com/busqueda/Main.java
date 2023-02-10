@@ -11,25 +11,6 @@ public class Main {
     static int vertices=4;
     static List<Integer>[] adjacencyList;
     public static void main(String[] args) {
-    /*    int numVertices=4;
-        List<Integer>[] listaAdja=new ArrayList[numVertices];
-        listaAdja[0] = new ArrayList<>();
-        listaAdja[1] = new ArrayList<>();
-        listaAdja[2] = new ArrayList<>();
-        listaAdja[3] = new ArrayList<>();
-        boolean[] visited = new boolean[vertices];
-
-        listaAdja[0].add(1);
-        listaAdja[0].add(3);
-        listaAdja[0].add(2);
-        listaAdja[1].add(0);
-        listaAdja[2].add(0);
-        listaAdja[2].add(3);
-        listaAdja[3].add(0);
-        listaAdja[3].add(2);
-
-
-        DFSUtil(0, visited,listaAdja);*/
         List<Integer> nodos=new ArrayList<>();
         List<Integer> edges=new ArrayList<>();
         List<Integer> l=new ArrayList<>();
@@ -111,10 +92,7 @@ public class Main {
         //Funcion que regresa nodos
         int len=datos.length();
         int i=0;
-        int indx=0;
         int contador=0;
-        int contadorParaArreglo=0;
-        int numDeNum=0;
         String subirdato="";
         List<Integer> nodos=new ArrayList<>();
 
